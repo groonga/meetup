@@ -20,6 +20,7 @@ Groongaは地味ながらもコツコツと改良を続けていく開発スタ�
 * https://github.com/ranguba/examples をRails 4に対応。参考: "[groonga-dev,01746] ActiveGroongaのサンプル":http://sourceforge.jp/projects/groonga/lists/archive/dev/2013-September/001747.html
 * "ChupaText":https://github.com/ranguba/chupa-text のdecomposerの開発。
 * "文書検索ラングバ":https://github.com/ranguba/ranguba のクローラーの開発。
+* "文書検索ラングバ":https://github.com/ranguba/ranguba でchupa-ruby gemではなくchupa-text gemを使うようにする。
 * "Droonga":https://github.com/droonga/fluent-plugin-droonga/ にGroonga互換コマンドを追加。
 
 h2(#related-events). 関連イベント
