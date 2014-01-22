@@ -24,6 +24,15 @@ Groongaは地味ながらもコツコツと改良を続けていく開発スタ�
 * "Droonga":https://github.com/droonga/fluent-plugin-droonga/ にGroonga互換コマンドを追加。
 * https://github.com/groonga/heroku-buildpack-groonga をアップデート。
 
+今回のイベントはこんな人におすすめです。
+
+* ドキュメントで前から気になっているところがあるんだけど、どう手伝っていいかわからない
+* Groongaを囲む夕べで質問しそこなったので、この機会に開発者に気軽にいろいろ聞いてみたい
+* 去年のGroongaを囲む夕べは都合が悪くて参加できなかったけど、今回は会場にも近いし参加してみたい
+* メーリングリストで質問するのはちょっと気がひけているので、こじんまりとしたイベントなら質問しやすそう
+* 全文検索に興味があるけど、インストールでつまずいていてどうにかしたい
+* Groonga/Mroonga/Droongaのステッカーが欲しい
+
 h2(#related-events). 関連イベント
 
 * "全文検索エンジンGroongaを囲む夕べ 4":http://atnd.org/events/43461 2013-11-29に行われた第4回目のGroonga勉強会
