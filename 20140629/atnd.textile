@@ -74,14 +74,13 @@ h2(#requirement). 準備するもの
 
 今回はMroongaのことがわかった気になってもらうための体験型のイベントです。各自作業用のPCを持参してください。
 
-演習にはあらかじめMroongaをインストールしてあるvagrantのboxを使います。
-そのため、以下の条件を満していることが望まれます。
+演習にはあらかじめMroongaをインストールしてあり、サンプルデータが登録されているVagrantのboxを使います。
+以下からダウンロード、インストールしてログインできることを当日までに確認しておいてください。
 
-* Linuxの基本操作ができる
-
-演習で使うvagrantのboxは以下からダウンロード、インストールしてログインできることを前日までに確認しておいてください。
-
-TODO
+$ vagrant box add centos65-mroonga (準備中)
+$ wget http://packages.groonga.org/tmp/Vagrantfile
+$ vagrant up centos65_mroonga
+$ vagrant ssh centos65_mroonga
 
 h3(#conference-room). 会場について
 
