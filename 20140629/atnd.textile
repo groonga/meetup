@@ -87,4 +87,4 @@ h3(#conference-room). 会場について
 
 h2(#etc). 参加特典
 
-年に一度イベントでしか手に入らなかった "Groongaと関連プロジェクトのステッカー":http://groonga.org/ja/blog/2013/05/10/sticker.html ですが、このMeetup #3でも配布します！ぜひノートパソコンなどに貼ってGroonga普及に協力してください！
+年に一度イベントでしか手に入らなかった "Groongaと関連プロジェクトのステッカー":http://groonga.org/ja/blog/2013/05/10/sticker.html ですが、このMeetupでも配布します！ぜひノートパソコンなどに貼ってGroongaやMroongaの普及に協力してください！
