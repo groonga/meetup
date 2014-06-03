@@ -5,7 +5,7 @@ h1. Mroonga Meetup 2014/06/29
 * "Groonga Meetup 2014/01/29":http://groonga.org/ja/blog/2014/01/29/groonga-meetup.html ドキュメントをよくしよう、をテーマに会場提供をWEICさんにお願いして開催できました。
 * "全文検索エンジンGroonga勉強会@札幌":http://groonga.org/ja/blog/2014/03/29/sapporoonga.html 導入事例をぜひ聞きたい、ということで再び札幌の地で開催されたのが #sapporoonga です。
 * "Groonga Meetup 2014/04/29":http://groonga.org/ja/blog/2014/04/29/groonga-meetup-2.html Groonga初心者向けの演習をやってみました。会場提供はWEICさんです。
-* "Groongaドキュメント読書会1":http://groonga.doorkeeper.jp/events/11169 ぐるなびさんで開催されたGroongaのオンラインドキュメントをみんなで読んでみました。
+* "Groongaドキュメント読書会1":http://groonga.doorkeeper.jp/events/11169 Groongaのオンラインドキュメントをみんなで読んでみました。会場提供はぐるなびさんです。
 
 今回はそれに続いたイベントです。
 
