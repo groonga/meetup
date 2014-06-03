@@ -1,4 +1,4 @@
-h1. Groonga Meetup 2014/06/29
+h1. Mroonga Meetup 2014/06/29
 
 第4回目となる "全文検索エンジンGroonga":http://groonga.org/ja/ の勉強会の開催のあと、 "草の根Groongaイベントのお誘い":http://sourceforge.jp/projects/groonga/lists/archive/dev/2013-December/001937.html の投稿がきっかけとなって、小規模なGroongaイベントがいくつか開催されました。
 
