@@ -77,10 +77,12 @@ h2(#requirement). 準備するもの
 演習にはあらかじめMroongaをインストールしてあり、サンプルデータが登録されている "Vagrant":http://www.vagrantup.com/ のboxを使います。
 以下の手順でダウンロードからVMの起動、ログインできることを当日までに確認しておいてください。
 
+<pre>
 $ vagrant box add centos65-mroonga (準備中)
 $ wget http://packages.groonga.org/tmp/Vagrantfile
 $ vagrant up centos65_mroonga
 $ vagrant ssh centos65_mroonga
+</pre>
 
 h3(#conference-room). 会場について
 
