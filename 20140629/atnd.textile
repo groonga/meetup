@@ -59,7 +59,10 @@ h3(#time-table). タイムテーブル
 
 h2(#place). 場所
 
-未定です。
+まだ未定です。（東京都内で開催予定です。再来週くらいまでには確定したい） "Groonga Meetup 2014/01/29":http://groonga.org/ja/blog/2014/01/29/groonga-meetup.html や 
+ "Groonga Meetup 2014/04/29":http://groonga.org/ja/blog/2014/04/29/groonga-meetup-2.html のときはWEICさんに会場提供してもらったので、場所は高田馬場でした。
+
+会場提供できますよーという人は、 "Mroonga勉強会(6/29)開催のお知らせ":http://sourceforge.jp/projects/groonga/lists/archive/dev/2014-June/002395.html へ返信するか、 "@groonga":https://twitter.com/groonga へ申しでてもらえると嬉しいです。
 
 h3(#admission). 入場方法
 
