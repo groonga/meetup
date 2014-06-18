@@ -59,14 +59,16 @@ h3(#time-table). タイムテーブル
 
 h2(#place). 場所
 
-まだ未定です。（東京都内で開催予定です。再来週くらいまでには確定したい） "Groonga Meetup 2014/01/29":http://groonga.org/ja/blog/2014/01/29/groonga-meetup.html や 
- "Groonga Meetup 2014/04/29":http://groonga.org/ja/blog/2014/04/29/groonga-meetup-2.html のときはWEICさんに会場提供してもらったので、場所は高田馬場でした。
+株式会社WEICさんの会議室をお借りできることになりました。ありがとうございます！
 
-会場提供できますよーという人は、 "Mroonga勉強会(6/29)開催のお知らせ":http://sourceforge.jp/projects/groonga/lists/archive/dev/2014-June/002395.html へ返信するか、 "@groonga":https://twitter.com/groonga へ申しでてもらえると嬉しいです。
+"株式会社WEIC （東京都新宿区高田馬場 1－29－8　新宿東豊ビル5階）":http://www.weic.jp/www/information/profile.html
 
 h3(#admission). 入場方法
 
 会場に入る方法と注意事項は以下の通りです。
+
+* オフィスフロア入り口である5Fに来てください。
+* Pマークの関係上、受付にて受付票にご記入ください。入館証をお渡しするので、その際に名刺を1枚頂戴します。
 
 h2(#application). 発表の応募方法
 
@@ -89,7 +91,7 @@ $ vagrant ssh centos65_mroonga
 
 h3(#conference-room). 会場について
 
-* 
+* 会場では無線LANが利用可能です。
 
 h2(#etc). 参加特典
 
