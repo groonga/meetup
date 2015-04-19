@@ -2,6 +2,8 @@
 
 「Groongaドキュメント読書会」とは[Groongaのドキュメント](http://groonga.org/ja/docs/)を先頭から順に読んでGroongaについて理解していくイベントです。このリポジトリーはそのイベントで使うデータや情報を共有するためのリポジトリーです。
 
+[次回のGroongaドキュメント読書会について](https://github.com/groonga/meetup/issues/7)
+
 ## 現在共有している情報
 
   * 次はどこから読むか
