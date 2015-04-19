@@ -1,0 +1,134 @@
+# 4.1でのスキーマ定義とデータ
+
+table_create --name Site --flags TABLE_HASH_KEY --key_type ShortText
+
+column_create --table Site --name title --type ShortText
+
+load --table Site
+[
+{"_key":"http://example.org/","title":"This is test record 1!"},
+{"_key":"http://example.net/","title":"test record 2."},
+{"_key":"http://example.com/","title":"test test record three."},
+{"_key":"http://example.net/afr","title":"test record four."},
+{"_key":"http://example.org/aba","title":"test test test record five."},
+{"_key":"http://example.com/rab","title":"test test test test record six."},
+{"_key":"http://example.net/atv","title":"test test test record seven."},
+{"_key":"http://example.org/gat","title":"test test record eight."},
+{"_key":"http://example.com/vdw","title":"test test record nine."}
+]
+
+table_create --name Terms --flags TABLE_PAT_KEY|KEY_NORMALIZE --key_type ShortText --default_tokenizer TokenBigram
+
+column_create --table Terms --name blog_title --flags COLUMN_INDEX|WITH_POSITION --type Site --source title
+
+# 4.3でのスキーマ定義とデータ
+
+table_create --name ToyBox --flags TABLE_HASH_KEY --key_type ShortText
+
+column_create --table ToyBox --name is_animal --type Bool
+
+load --table ToyBox
+[
+{"_key":"Monkey","is_animal":true},
+{"_key":"Flower","is_animal":false}
+{"_key":"Block"}
+]
+
+column_create --table ToyBox --name price --type Int8
+
+column_create --table ToyBox --name weight --type Float
+
+load --table ToyBox
+[
+{"_key":"Monkey","price":15.9},
+{"_key":"Flower","price":200,"weight":0.13},
+{"_key":"Block","weight":25.7}
+]
+
+column_create --table ToyBox --name name --type ShortText
+
+load --table ToyBox
+[
+{"_key":"Monkey","name":"Grease"},
+{"_key":"Flower","name":"Rose"}
+]
+
+column_create --table ToyBox --name time --type Time
+
+load --table ToyBox
+[
+{"_key":"Flower","time":1234567890.1234569999},
+{"_key":"Block","time":-1234567890}
+]
+
+column_create --table ToyBox --name location --type WGS84GeoPoint
+
+load --table ToyBox
+[
+{"_key":"Monkey","location":"128452975x503157902"},
+{"_key":"Block","location":"35.6813819x139.7660839"}
+]
+
+column_create --table Site --name link --type Site
+
+load --table Site
+[
+{"_key":"http://example.org/","link":"http://example.net/"}
+]
+
+column_create --table Site --name links --flags COLUMN_VECTOR --type Site
+
+load --table Site
+[
+{"_key":"http://example.org/","links":["http://example.net/","http://example.org/","http://example.com/"]}
+]
+
+# 4.4でのスキーマ定義とデータ
+
+column_create --table Site --name location --type WGS84GeoPoint
+
+load --table Site
+[
+ {"_key":"http://example.org/","location":"128452975x503157902"}
+ {"_key":"http://example.net/","location":"128487316x502920929"},
+]
+
+# 4.5でのスキーマ定義とデータ
+
+table_create --name SiteDomain --flags TABLE_HASH_KEY --key_type ShortText
+table_create --name SiteCountry --flags TABLE_HASH_KEY --key_type ShortText
+column_create --table Site --name domain --flags COLUMN_SCALAR --type SiteDomain
+column_create --table Site --name country --flags COLUMN_SCALAR --type SiteCountry
+
+load --table Site
+[
+{"_key":"http://example.org/","domain":".org","country":"japan"},
+{"_key":"http://example.net/","domain":".net","country":"brazil"},
+{"_key":"http://example.com/","domain":".com","country":"japan"},
+{"_key":"http://example.net/afr","domain":".net","country":"usa"},
+{"_key":"http://example.org/aba","domain":".org","country":"korea"},
+{"_key":"http://example.com/rab","domain":".com","country":"china"},
+{"_key":"http://example.net/atv","domain":".net","country":"china"},
+{"_key":"http://example.org/gat","domain":".org","country":"usa"},
+{"_key":"http://example.com/vdw","domain":".com","country":"japan"}
+]
+
+# 4.6.1までのスキーマ定義とデータ
+
+table_create --name Video --flags TABLE_HASH_KEY --key_type UInt32
+table_create --name Tag --flags TABLE_HASH_KEY --key_type ShortText
+column_create --table Video --name title --flags COLUMN_SCALAR --type ShortText
+column_create --table Video --name tags --flags COLUMN_VECTOR --type Tag
+column_create --table Tag --name index_tags --flags COLUMN_INDEX --type Video --source tags
+
+load --table Video
+[
+{"_key":1,"title":"Soccer 2010","tags":["Sports","Soccer"]},
+{"_key":2,"title":"Zenigata Kinjirou","tags":["Variety","Money"]},
+{"_key":3,"title":"groonga Demo","tags":["IT","Server","groonga"]},
+{"_key":4,"title":"Moero!! Ultra Baseball","tags":["Sports","Baseball"]},
+{"_key":5,"title":"Hex Gone!","tags":["Variety","Quiz"]},
+{"_key":6,"title":"Pikonyan 1","tags":["Animation","Pikonyan"]},
+{"_key":7,"title":"Draw 8 Month","tags":["Animation","Raccoon"]},
+{"_key":8,"title":"K.O.","tags":["Animation","Music"]}
+]
