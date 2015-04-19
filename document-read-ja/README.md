@@ -17,6 +17,7 @@
 
 ## 過去のGroongaドキュメント読書会
 
+  * [Groongaドキュメント読書会6](http://groonga.doorkeeper.jp/events/17229) - 2014-12-11（木） 19:30-21:30
   * [Groongaドキュメント読書会5](http://groonga.doorkeeper.jp/events/16395) - 2014-10-27（月） 19:30-21:30
   * [Groongaドキュメント読書会4](http://groonga.doorkeeper.jp/events/14275) - 2014-08-25（月） 19:30-21:30
   * [Groongaドキュメント読書会3](http://groonga.doorkeeper.jp/events/13039) - 2014-07-23（水） 20:00-22:00
